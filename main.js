@@ -26,7 +26,7 @@ async function enviar(){
     );
     setTimeout(function(){
       alert("Mensagem enviada");
-      texto="";
+      document.querySelector("textarea").value="";
     },500);
     
     
