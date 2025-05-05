@@ -27,7 +27,7 @@ async function enviar(){
     setTimeout(function(){
       alert("Mensagem enviada");
       texto="";
-    },2000);
+    },500);
     
     
     
