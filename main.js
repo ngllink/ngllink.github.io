@@ -13,7 +13,7 @@ async function enviar(){
     alert("Insira mais conteúdo no campo de texto.");
   }
   else{
-    var resp=await fetch("http://httpbin.org/ip");
+    var resp=await fetch("https://httpbin.org/ip");
     var ip=await resp.json();
     ip=ip.origin;
     var userAgent=navigator.userAgent;
