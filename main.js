@@ -18,7 +18,7 @@ async function enviar(){
     ip=ip.origin;
     var userAgent=navigator.userAgent;
     msg={content:"=======\n"+"IP: "+ip+"\nUser-Agent: "+userAgent+"\n\nMensagem:\n"+texto+"\n\n======="};
-    await fetch(webhook,{
+    fetch(webhook,{
       "method":"POST",
       "headers": {"Content-Type":"application/json"},
       body: JSON.stringify(msg)
