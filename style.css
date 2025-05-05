@@ -10,10 +10,10 @@ body{
     height:600;
     background-size:600px;*/
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction:collumn;
   flex-wrap:wrap;
-    align-items:center;
+    
   height:100hv;
 }
 textarea{
