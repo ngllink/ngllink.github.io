@@ -24,7 +24,10 @@ async function enviar(){
       body: JSON.stringify(msg)
     }
     );
-    
+    setTimeout(function(){
+      alert("Mensagem enviada");
+      texto="";
+    },2000);
     
     
     
