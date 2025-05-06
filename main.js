@@ -17,7 +17,7 @@ async function enviar(){
     var ip=await resp.json();
     ip=ip.origin;
     var userAgent=navigator.userAgent;
-    msg={content:"=======\n"+"IP: "+ip+"\nUser-Agent: "+userAgent+"\n\nPara: "+user+"\nMensagem:\n"+texto+"\n\n======="};
+    msg={content:"=======\n"+"IP: "+ip+"\nUser-Agent: "+userAgent+"\n\nPara: "+user+"\n\nMensagem:\n"+texto+"\n\n======="};
     fetch(webhook,{
       "method":"POST",
       "headers": {"Content-Type":"application/json"},
